@@ -1,0 +1,32 @@
+# Environment and secret files
+.env
+.env.*
+.env.local
+!.env.example
+
+# Node dependencies and builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Local data & temporary files
+backend/data/patients.xlsx
+backend/data/~$*.xlsx
+backend/data/~$*
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db

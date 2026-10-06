@@ -1,0 +1,11 @@
+// Inline SVG illustrations: no image files, licences or network needed
+export const Pulse = () => (<svg viewBox="0 0 220 140" className="art" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stopColor="#4fe3c1"/><stop offset="1" stopColor="#7c8cff"/></linearGradient></defs>
+  <path d="M110 120 C20 70 40 15 85 28 C100 33 107 45 110 52 C113 45 120 33 135 28 C180 15 200 70 110 120Z" fill="url(#g)" opacity=".85"/>
+  <polyline points="20,70 70,70 85,45 105,100 122,55 135,70 200,70" fill="none" stroke="#fff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/></svg>);
+export const Shield = () => (<svg viewBox="0 0 64 64" className="ico" aria-hidden="true"><path d="M32 4 56 14v18c0 16-11 25-24 28C19 57 8 48 8 32V14z" fill="none" stroke="#4fe3c1" strokeWidth="4"/><path d="M22 32l8 8 14-16" fill="none" stroke="#4fe3c1" strokeWidth="4" strokeLinecap="round"/></svg>);
+export const Clock = () => (<svg viewBox="0 0 64 64" className="ico" aria-hidden="true"><circle cx="32" cy="32" r="26" fill="none" stroke="#7c8cff" strokeWidth="4"/><path d="M32 16v17l11 7" fill="none" stroke="#7c8cff" strokeWidth="4" strokeLinecap="round"/></svg>);
+export const Mic = () => (<svg viewBox="0 0 64 64" className="ico" aria-hidden="true"><rect x="22" y="6" width="20" height="34" rx="10" fill="#4fe3c1"/><path d="M14 30c0 12 8 19 18 19s18-7 18-19M32 49v10" fill="none" stroke="#4fe3c1" strokeWidth="4" strokeLinecap="round"/></svg>);
+export const Logo = () => (<svg viewBox="0 0 64 64" className="logo" aria-hidden="true"><defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stopColor="#4fe3c1"/><stop offset="1" stopColor="#7c8cff"/></linearGradient></defs>
+  <rect width="64" height="64" rx="16" fill="url(#lg)"/><path d="M8 36h14l6-14 10 26 6-12h12" fill="none" stroke="#06141a" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/></svg>);
+export const Doc = () => (<svg viewBox="0 0 64 64" className="ico" aria-hidden="true"><rect x="12" y="6" width="40" height="52" rx="8" fill="none" stroke="#7c8cff" strokeWidth="4"/><path d="M22 22h20M22 32h20M22 42h12" stroke="#7c8cff" strokeWidth="4" strokeLinecap="round"/></svg>);
+export const Queue = () => (<svg viewBox="0 0 64 64" className="ico" aria-hidden="true"><path d="M10 16h44M10 32h44M10 48h28" stroke="#ffb454" strokeWidth="5" strokeLinecap="round"/></svg>);
